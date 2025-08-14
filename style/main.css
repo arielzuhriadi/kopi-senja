@@ -1,0 +1,69 @@
+:root {
+    --nav: #000000;
+    --background: #3C2A21;
+    --background2: #FA7D09;
+    --footer: #0A2647;
+}
+
+html,
+body {
+    color: white;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: black;
+}
+
+nav {
+    background-color: var(--nav);
+}
+
+.nav-item a {
+    font-size: 17px;
+    color: white;
+}
+
+.nav-item a:hover {
+    color: #FA7D09;
+}
+
+.dropdown-menu li a{
+    color: black;
+}
+.dropdown-menu li a:hover{
+    background-color: rgb(181, 181, 181);
+    color: black;
+}
+
+#login{
+    background-color: white;
+    color: black;
+}
+#login:hover{
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+
+#home{
+    height: 100vh;
+}
+
+#colMenu{
+    height: 60vh;
+}
+
+#imgMenu{
+    height: 30vh; 
+    object-fit: cover;
+    object-position: center;
+}
+
+#imgGalery{
+    height: 25vh; 
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid white;
+}
